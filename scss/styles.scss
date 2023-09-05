@@ -1,0 +1,15 @@
+// Utils
+@import '../scss/utils/globals';
+@import '../scss/utils/variables';
+@import '../scss/utils/mixin';
+@import '../scss/utils/extend';
+
+// Layouts
+@import '../scss/layout/header';
+@import '../scss/layout/main';
+@import '../scss/layout/footer';
+@import '../scss/layout/section';
+@import '../scss/layout/article';
+
+// components 
+@import '../scss/components/mediaqueries'

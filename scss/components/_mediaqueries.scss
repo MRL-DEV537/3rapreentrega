@@ -1,0 +1,450 @@
+@media (min-width: 1200px) {
+    /* Inicio de res. Desktop / planes */
+    main {
+        .suplementos {
+            left: 40%;
+        }
+        .box-waves {
+            position: absolute;
+            .ofrecer {
+                h4 {
+                    position: absolute;
+                    left: 43%;
+                }
+                .ul {
+                    top: 40px;
+                    position: absolute;
+                    color: $maincolor;
+                    font-size: 3vh;
+                    li {
+                        margin: 10px
+                    }
+                }
+            }
+            .img-waves{
+                @include waves;
+                bottom: 130px;
+            }
+            .img-waves2 {
+                position: relative;
+                top: 100px;
+                transform: rotate(360deg);
+                @include waves;
+                width: 100%;
+            }
+        }
+        .ourteam {
+            position: relative;
+            left: 25%;
+            letter-spacing: 2px;
+        }
+        .button {
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 550;
+            top: 380px;
+            left: 28%;
+            transition: 200ms;
+            &:hover {
+                position: absolute;
+                left: 28%;
+                transform: scale(1.1);
+            }
+        }
+        .planes {
+            position: absolute;
+            left: 25%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-weight: 850;
+            padding-bottom:15px;
+        }
+    }
+    section {
+        .catalogo {
+            .creatina {
+                border-radius: 10px;
+                background-color: white;
+                width: 200px;
+                height: 360px;
+                position: absolute;
+                top: 0px;
+                left: 565px;
+                width: 200px;
+                img {
+                    transition: 500ms;
+                    width: 200px;
+                    &:hover {
+                        filter: brightness(0.6)
+                    }
+                }
+                .titulo1 {
+                    font-weight: 850;
+                    position: absolute;
+                    background-color: #e9ecef;
+                    width: 100%;
+                    text-align: center;
+                    font-size: 2.3vh;
+                }
+                .price {
+                    text-decoration: line-through;
+                    position: absolute;
+                    top: 75%;
+                    left: 40px;
+                    font-size: 2.1vh;
+                    padding-left: 20px;
+                    font-weight: 600;
+                    color: black;
+                }
+                .new {
+                    color: #5e0e04;
+                    position: absolute;
+                    text-decoration: underline;
+                    top: 69%;
+                    left: 32px;
+                    font-size: 2.4vh;
+                    padding-left: 20px;
+                    font-weight: 700;
+                }
+                button {
+                    background: green;
+                    color: white;
+                    padding: 5px;
+                    border: solid;
+                    border-radius: 7px;
+                    position: absolute;
+                    font-weight: 600;
+                    top: 85%;
+                    left: 30%;
+                    transition: 300ms;
+                    &:hover {
+                        top: 84%;
+                        transform: scale(1.1);
+                    }
+                }
+                .descuento-creatina {
+                    position: absolute;
+                    top: 9px;
+                    height: 25px;
+                    width: 50px;
+                    z-index: 3001;
+                    left: 8px;
+                    background-color: rgb(250, 150, 167);
+                    border-radius: 10px;
+                    color: white;
+                    text-align: center;
+                }
+            }
+            .descuento-prote {
+                position: absolute;
+                top: 9px;
+                height: 25px;
+                width: 50px;
+                z-index: 3001;
+                left: 8px;
+                background-color: rgb(250, 150, 167);
+                border-radius: 10px;
+                color: white;
+                text-align: center;
+            }
+            button {
+                background: green;
+                color: white;
+                padding: 5px;
+                border: solid;
+                border-radius: 7px;
+                position: absolute;
+                font-weight: 600;
+                top: 85%;
+                left: 30%;                    
+                transition: 300ms;
+                &:hover {
+                    top: 84%;
+                    transform: scale(1.1);
+                }
+            }
+            .new-price {
+                color: #5e0e04;
+                position: absolute;
+                text-decoration: underline;
+                top: 69%;
+                left: 24px;
+                font-size: 2.4vh;
+                padding-left: 20px;
+                font-weight: 700;
+            }
+            .price-old {
+                text-decoration: line-through;
+                position: absolute;
+                top: 75%;
+                left: 40px;
+                font-size: 2.1vh;
+                padding-left: 20px;
+                font-weight: 600;
+                color: black;
+            }
+            .prote-titulo {
+                font-weight: 850;
+                position: absolute;
+                background-color: #e9ecef;
+                width: 100%;
+                text-align: center;
+                font-size: 2.3vh;
+            }
+            position: absolute;
+            top: 300px;
+            border-radius: 10px;
+            left: 21.5%;
+            background-color: white;
+            width: 200px;
+            height: 360px;
+            .proteina {
+                transition: 500ms;
+                &:hover {
+                    filter: brightness(0.6)
+                }
+                img {
+                    transition: 500ms;
+                    z-index: 3200;
+                    &:hover {
+                        filter: brightness(0.6)
+                    }
+                }
+                width: 200px;
+            }
+        }
+        // Instagram iframe
+        article {
+            .iframe2 {
+                p {
+                    display: inline;
+                    color: black;
+                    position: absolute;
+                    font-size: 3vh;
+                    top: 950px;
+                    letter-spacing: 2px;
+                    left: 915px;
+                    font-weight: 700;
+                }
+                .iframe {
+                    top: 990px;
+                    left: 800px;
+                    position: absolute;
+                    display: inline;
+                }
+            }
+            //FIN
+            //Nosotros
+            .imagenes {
+                margin-top: 50px;
+                position: absolute;
+                display: flex;
+                h5 {
+                    text-align: center;
+                    letter-spacing: 10px;
+                    left: 590px;
+                    font-size: 4vh;
+                    top: 850px;
+                }
+                .tata {
+                    width: 200px;
+                    top: 1000px;
+                    left: 600px;
+                    position: absolute;
+                }
+                .belen {
+                    top: 1000px;
+                    left: 1100px;
+                    width: 200px;
+                }
+                .esteban {
+                    top: 1000px;
+                    left: 99px;
+                    width: 200px;
+                }
+            }
+            .somos {
+                p {
+                    text-align: center;
+                    background-color: $maincolor;
+                    height: 220px;
+                    border-radius: 10px;
+                    color: black;
+                    top: 770px;
+                    font-size: 4.5vh;
+                    font-weight: 600;
+                    position: absolute;
+                }
+            }
+            .div2 {
+                position: absolute;
+                top: 300px;
+                height: 40vh;
+                left: 30%;
+                background-color: $bodycolor;
+                p {
+                    text-align: center;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    font-size: 3vh;
+                }
+                ul {
+                    li {
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .div {
+                position: relative;
+                display: flex;
+                h3 {
+                    top: 20px;
+                    left: 40.5%;
+                    position: absolute;
+                }
+            }
+            .btn {
+                border-radius: 20px;
+                position: absolute;
+                top: 97%;
+                left:46.9%;
+                box-shadow: rgba(8, 167, 29, 0.35) 0 -25px 18px -14px inset,rgba(0, 0, 0, 0.25) 0 1px 2px,rgba(0, 0, 0, 0.25) 0 2px 4px,rgba(0, 0, 0, 0.25) 0 4px 8px,rgba(0, 0, 0, 0.25) 0 8px 16px,rgba(0, 0, 0, 0.25) 0 16px 32px;
+                transition: 400ms;
+                &:hover {
+                    top: 96%;
+                    transform: scale(1.1);
+                }
+            }
+        }
+        //Fin
+        //Contact
+        .allbox {
+            .contact-box {
+                position: relative;
+                top: 950px;
+                .imagen-asociar {
+                    img {
+                        position: absolute;
+                        width: 30px;
+                        top: 300px;
+                        left: 350px;
+                    }
+                }
+                .links {
+                    position: absolute;
+                    margin-bottom: 10px;
+                    top: 200px;
+                    left: 16%;
+                    color: black;
+                    font-weight: 500;
+                }
+                p {
+                    position: absolute;
+                    color: black;
+                    padding: 10px;
+                    font-size: 3vh;
+                    display: flex;
+                    top: 50px;
+                    left: 16%;
+                    width: 42vh;
+                }
+                h2 {
+                    position: absolute;
+                    display: flex;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 700;
+                    left: 16%;
+                    padding: 10px;
+                    top: 120%;
+                    border-radius: 25px;
+                    justify-content: center;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0 -25px 18px -14px inset,rgba(0, 0, 0, 0.25) 0 1px 2px,rgba(0, 0, 0, 0.25) 0 2px 4px,rgba(0, 0, 0, 0.25) 0 4px 8px,rgba(0, 0, 0, 0.25) 0 8px 16px,rgba(0, 0, 0, 0.25) 0 16px 32px;
+                    background-color: $maincolor;
+                    height: 50vh;
+                    width: 40vh;
+                }
+                .link1 {
+                    display: block;
+                    position: relative;
+                    margin: 10px;
+                    bottom: 20px;
+                }
+                .link2 {
+                    display: block;
+                    position: relative;
+                    margin: 10px;
+                    bottom: 20px;
+                }
+                
+                .link  {
+                    display: block;
+                    position: relative;
+                    margin: 10px;
+                    bottom: 20px;
+                }
+            }
+        }
+        //Fin
+        // Logo whatsapp
+        .whatsapp {
+            .wsp {
+                top: 93%;
+                left: 95%;
+                position: fixed;
+                width: 45px;
+                z-index: 100;
+            }
+        }
+        //Fin
+        //Planes
+        .plan {
+            h2 {
+                text-align: center;
+                justify-content: center;
+                display: flex;
+            }
+            top: 300px;
+            left: 350px;
+            position: absolute;
+            height: 50vh;
+            width: 40vh;
+            box-shadow: rgba(0, 0, 0, 0.35) 0 -25px 18px -14px inset,rgba(0, 0, 0, 0.25) 0 1px 2px,rgba(0, 0, 0, 0.25) 0 2px 4px,rgba(0, 0, 0, 0.25) 0 4px 8px,rgba(0, 0, 0, 0.25) 0 8px 16px,rgba(0, 0, 0, 0.25) 0 16px 32px;
+            border-radius: 20px;
+            background-color: $maincolor;
+        }
+        .plananual {
+            h2 {
+                position: relative;
+                display: flex;
+                justify-content: center;
+            }
+            top: 300px;
+            left: 750px;
+            position: absolute;
+            height: 50vh;
+            width: 40vh;
+            box-shadow: rgba(0, 0, 0, 0.35) 0 -25px 18px -14px inset,rgba(0, 0, 0, 0.25) 0 1px 2px,rgba(0, 0, 0, 0.25) 0 2px 4px,rgba(0, 0, 0, 0.25) 0 4px 8px,rgba(0, 0, 0, 0.25) 0 8px 16px,rgba(0, 0, 0, 0.25) 0 16px 32px;
+            border-radius: 20px;
+            background-color: $maincolor;
+        }
+    }
+    //Fin
+    //Footer
+    footer {
+        .background-footer2 {
+            position: absolute;
+            top: 130%;
+            left: 0;
+            width: 100%;
+            height: 10%;
+            color: #e9ecef;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+//Fin

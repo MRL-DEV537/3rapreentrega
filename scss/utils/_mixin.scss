@@ -1,0 +1,16 @@
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-d-j-c {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin waves {
+    position: relative;
+    filter: brightness(0);
+    width: 100%;
+}

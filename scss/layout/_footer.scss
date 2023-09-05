@@ -1,0 +1,48 @@
+
+footer {
+    h3{
+        bottom: 0;
+        font-size: 15px;
+    }
+    .background-footer {
+        h3 {
+            font-size: 2.5vh;
+        }
+        position: absolute;
+        top: 200%;
+        left: 0;
+        width: 100%;
+        height: 10%;
+        color: #e9ecef;
+        @extend %back-footer;
+        @include flex;
+    }
+    
+    .background-footer2 {
+        h3 {
+            font-size: 2.5vh;
+        }
+        position: absolute;
+        top: 200%;
+        left: 0;
+        width: 100%;
+        height: 10%;
+        color: #e9ecef;
+        @extend %back-footer;
+        @include flex;
+    }
+    
+    .background-footer3 {
+        h2 {
+            font-size: 2.5vh;
+        }
+        position: absolute;
+        top: 200%;
+        left: 0;
+        width: 100%;
+        height: 10%;
+        color: #e9ecef;
+        @extend %back-footer;
+        @include flex;
+    }
+}
